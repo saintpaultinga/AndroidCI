@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         display_btn.setOnClickListener {
-        name_lbl.text = "Hello ${user_name.text}! How are you doing today?"
+            name_lbl.text = "Hello ${user_name.text}! How are you doing today?"
         }
     }
 }
